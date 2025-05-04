@@ -6,7 +6,7 @@ console.log(firstTask)
 let taskDescription = prompt("Enter task description:");
 console.log(taskDescription)
 
-let status = prompt("Enter status of completion");
+let status = prompt("Enter status of completion").toLowerCase();
 console.log(status)
 
 while (status !== "todo" && status !== "doing" && status !== "done") {
